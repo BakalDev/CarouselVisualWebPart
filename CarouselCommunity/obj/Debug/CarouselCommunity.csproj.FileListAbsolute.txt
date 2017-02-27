@@ -1,0 +1,9 @@
+\\ldsfileproapp01\home$\adambd\visual studio 2010\Projects\CarouselCommunity\CarouselCommunity\bin\Debug\CarouselCommunity.dll
+\\ldsfileproapp01\home$\adambd\visual studio 2010\Projects\CarouselCommunity\CarouselCommunity\bin\Debug\CarouselCommunity.pdb
+\\ldsfileproapp01\home$\adambd\visual studio 2010\Projects\CarouselCommunity\CarouselCommunity\obj\Debug\CarouselCommunity.dll
+\\ldsfileproapp01\home$\adambd\visual studio 2010\Projects\CarouselCommunity\CarouselCommunity\obj\Debug\CarouselCommunity.pdb
+C:\dev\Sandpit\adambd\SharePoint 2010\CarouselCommunity\CarouselCommunity\bin\Debug\CarouselCommunity.dll
+C:\dev\Sandpit\adambd\SharePoint 2010\CarouselCommunity\CarouselCommunity\bin\Debug\CarouselCommunity.pdb
+C:\dev\Sandpit\adambd\SharePoint 2010\CarouselCommunity\CarouselCommunity\obj\Debug\CarouselCommunity.dll
+C:\dev\Sandpit\adambd\SharePoint 2010\CarouselCommunity\CarouselCommunity\obj\Debug\CarouselCommunity.pdb
+C:\dev\Sandpit\adambd\SharePoint 2010\CarouselCommunity\CarouselCommunity\obj\Debug\CarouselCommunity.csprojResolveAssemblyReference.cache

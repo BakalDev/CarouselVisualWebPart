@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Community Carousel" AlwaysForceInstall="TRUE" Creator="Adam Bakal" Description="jQuery Carousel specifically tailored for the Community site." Id="92b4e438-d751-44b0-8d84-0e24c704e230" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="VisualWebPart1\Elements.xml" />
+    <ElementFile Location="VisualWebPart1\VisualWebPart1.webpart" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+	<webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+		<metaData>
+			<type name="CarouselCommunity.VisualWebPart1.VisualWebPart1, CarouselCommunity, Version=1.0.2.1, Culture=neutral, PublicKeyToken=3014057125c677d1" />
+			<importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+		</metaData>
+		<data>
+			<properties>
+				<property name="Title" type="string">Carousel for Community Site</property>
+				<property name="Description" type="string">jQuery Carousel specifically tailored for the Community site.</property>
+				<property name="Author" type="string">AB* Adam Bakal</property>
+			</properties>
+		</data>
+	</webPart>
+</webParts>

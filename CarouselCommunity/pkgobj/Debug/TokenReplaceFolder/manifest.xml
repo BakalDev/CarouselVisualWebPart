@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="37c586d4-c9a5-4f56-ad9a-edf14c51671c" ResetWebServer="TRUE" ResetWebServerModeOnUpgrade="Recycle" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="CarouselCommunity.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="CarouselCommunity, Version=1.0.2.1, Culture=neutral, PublicKeyToken=3014057125c677d1" Namespace="CarouselCommunity.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\CarouselCommunity\VisualWebPart1\VisualWebPart1UserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="CarouselCommunity_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
