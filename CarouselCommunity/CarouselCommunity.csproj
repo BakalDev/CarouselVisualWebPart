@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="key.snk" />
+    <None Include="VisualWebPart1\README.md" />
     <None Include="VisualWebPart1\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{7f36c52c-9c92-4409-8a5f-0804459b910f}</SharePointProjectItemId>
       <SubType>Designer</SubType>
@@ -72,6 +73,8 @@
     <None Include="VisualWebPart1\Elements.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="carousel.css" />
+    <Content Include="carousel.js" />
     <Content Include="VisualWebPart1\VisualWebPart1UserControl.ascx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>

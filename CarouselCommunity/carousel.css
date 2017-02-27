@@ -1,0 +1,282 @@
+﻿/** VARIABLES 
+===================================*/
+
+/* Custom */
+@import url('https://fonts.googleapis.com/css?family=Exo:900');
+
+.poster-item 
+{
+	min-height: 250px;	
+	height: 250px;
+    padding: 20px;
+	overflow:hidden;
+}
+.poster-item:hover {
+	cursor: pointer;
+}
+
+.poster-link-wrapper {
+	height: 100%;
+}
+.poster-link {
+	display:block;  
+}
+.poster-link:hover, .poster-link:active {
+	text-decoration:none !important;
+}
+.orange-poster-title, .purple-poster-title, .brown-poster-title, .salmon-poster-title, .blue-poster-title, .green-poster-title {
+	font-size: 3.5em;
+	font-weight: bold;
+	font-family: 'Exo', sans-serif;
+}
+.orange-poster-newsType, .purple-poster-newsType, .brown-poster-newsType, .salmon-poster-newsType, .blue-poster-newsType, .green-poster-newsType
+{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	font-size: 1.5em;
+	font-family: 'Exo', sans-serif;
+}
+.orange-poster-desc, .purple-poster-desc, .brown-poster-desc, .salmon-poster-desc, .blue-poster-desc, .green-poster-desc{
+	font-size: 2em;
+}
+
+/* Discount */
+.orange 
+{
+	background: #FCB316;
+}
+.orange-poster-title, .orange-poster-newsType, .orange-poster-desc {
+	 color: #b7650c !important;	
+}
+
+/* Benefit */
+.purple 
+{
+	background:#6F397F;
+}
+.purple-poster-title, .purple-poster-newsType, .purple-poster-desc  {
+	color: #450c56!important;
+}
+
+/* Other */
+.brown {
+	background: #795548;
+}
+
+.brown-poster-title, .brown-poster-newsType, .brown-poster-desc {
+	color: #3E2723 !important;
+}
+
+/* Fundraising */
+.salmon {
+	background: #AD1457;
+}
+.salmon-poster-title, .salmon-poster-newsType, .salmon-poster-desc {
+	color: #500728!important;
+}
+
+/* Event */
+.blue {
+	background: #607D8B;
+}
+.blue-poster-title, .blue-poster-newsType,.blue-poster-desc {
+	color: #263238!important;
+}
+
+/* Advert */
+.green {
+	background: #4CAF50
+}
+.green-poster-title, .green-poster-newsType,.green-poster-desc  {
+	color: #1B5E20 !important;
+}
+
+/* Controls */
+.bx-wrapper .bx-controls-direction a {
+	height: 8em;
+	width: 2em;
+	display: block;
+}
+.bx-prev, .bx-next {	
+	font-size:5em !important;
+	font-family:"Agency FB", Courier, monospace !important;
+	
+}
+.bx-prev:hover, .bx-prev:active, .bx-next:hover, .bx-next:active {
+	text-decoration:none !important;
+}
+
+
+/** RESET AND LAYOUT
+===================================*/
+.bx-wrapper {
+  position: relative;
+  margin: 0 auto 60px;
+  padding: 0;
+  *zoom: 1;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
+.bx-wrapper img {
+  max-width: 100%;
+  display: block;
+}
+.bxslider {
+  margin: 0;
+  padding: 0;
+}
+ul.bxslider {
+  list-style: none;
+}
+.bx-viewport {
+  /*fix other elements on the page moving (on Chrome)*/
+  -webkit-transform: translatez(0);
+}
+/** THEME
+===================================*/
+.bx-wrapper {
+  background: #fff;
+}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+  position: absolute;
+  /*bottom: -30px; */
+  bottom: 10px;
+  width: 100%;
+}
+/* LOADER */
+.bx-wrapper .bx-loading {
+  min-height: 50px;
+  /* background: url('images/bx_loader.gif') center center no-repeat #ffffff; AB* Add back in */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+/* PAGER */
+.bx-wrapper .bx-pager {
+  text-align: center;
+  font-size: .85em;
+  font-family: Arial;
+  font-weight: bold;
+  color: #F08B1E;
+  padding-top: 20px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #F08B1E;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: #CE781B;
+}
+.bx-wrapper .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+.bx-wrapper .bx-pager-item {
+  font-size: 0;
+  line-height: 0;
+}
+/* DIRECTION CONTROLS (NEXT / PREV) */
+.bx-wrapper .bx-prev {
+  left: 10px;
+  /* background: url('images/controls.png') no-repeat 0 -32px; */
+}
+.bx-wrapper .bx-prev:hover,
+.bx-wrapper .bx-prev:focus {
+  background-position: 0 0;
+}
+.bx-wrapper .bx-next {
+  right: 10px;
+  /* background: url('images/controls.png') no-repeat -43px -32px; */
+}
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-next:focus {
+  background-position: -43px 0;
+}
+.bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  color: #fff;
+  top: 45%;
+  margin-top: -16px;
+  outline: 0;
+  width: 32px;
+  height: 32px;
+  /*text-indent: -9999px;*/
+  z-index: 9999;
+}
+.bx-wrapper .bx-controls-direction a.disabled {
+  display: none;
+}
+/* AUTO CONTROLS (START / STOP) */
+.bx-wrapper .bx-controls-auto {
+  text-align: center;
+}
+.bx-wrapper .bx-controls-auto .bx-start {
+  display: block;
+  text-indent: -9999px;
+  width: 10px;
+  height: 11px;
+  outline: 0;
+  background: url('images/controls.png') -86px -11px no-repeat;
+  margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active,
+.bx-wrapper .bx-controls-auto .bx-start:focus {
+  background-position: -86px 0;
+}
+.bx-wrapper .bx-controls-auto .bx-stop {
+  display: block;
+  text-indent: -9999px;
+  width: 9px;
+  height: 11px;
+  outline: 0;
+  background: url('images/controls.png') -86px -44px no-repeat;
+  margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active,
+.bx-wrapper .bx-controls-auto .bx-stop:focus {
+  background-position: -86px -33px;
+}
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+  text-align: left;
+  width: 80%;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+  right: 0;
+  width: 35px;
+}
+/* IMAGE CAPTIONS */
+.bx-wrapper .bx-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #666;
+  background: rgba(80, 80, 80, 0.75);
+  width: 100%;
+}
+.bx-wrapper .bx-caption span {
+  color: #fff;
+  font-family: Arial;
+  display: block;
+  font-size: .85em;
+  padding: 10px;
+}

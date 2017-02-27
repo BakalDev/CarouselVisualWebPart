@@ -10,9 +10,11 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="VisualWebPart1UserControl.ascx.cs"
 	Inherits="CarouselCommunity.VisualWebPart1.VisualWebPart1UserControl" %>
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
 <script type="text/javascript" src="http://vmsptpro1dba01/Community/Style%20Library/Carousel/jquery.bxslider.js"></script>
 <link href="http://vmsptpro1dba01/Community/Style Library/Carousel/jquery.bxslider.css"
 	rel="stylesheet" />
+
 <asp:Repeater ID="Repeater1" runat="server">
 	<HeaderTemplate>
 		<ul class="bxslider">
@@ -77,7 +79,6 @@
 		window.location.href = link;
 	}
 
-	
 	// initialise the carousel
 	$(document).ready(function () {
 		$('.bxslider').bxSlider();
